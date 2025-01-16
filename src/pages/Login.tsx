@@ -38,7 +38,7 @@ const Login: FC = () => {
                     <Dropdown menu={{ items }} trigger={['click']}>
                         <a onClick={(e) => e.preventDefault()}>
                             <Space>
-                                Click me
+                                View username and password
                                 <DownOutlined />
                             </Space>
                         </a>

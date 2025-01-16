@@ -26,9 +26,11 @@ const LoginForm: FC = () => {
                 autoComplete="off"
                 onFinish={submit}
             >
-                {error && <div style={{ color: "red" }}>
-                    {error}
-                </div>}
+                {error &&
+                    <div style={{ color: "red" }}>
+                        {error}
+                    </div>
+                }
                 <Form.Item
                     label="Username"
                     name="username"
